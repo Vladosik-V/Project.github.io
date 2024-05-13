@@ -1,0 +1,123 @@
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+ .hero {
+   position: relative;
+   text-align: center;
+   padding: 2rem;
+   height: 500px;
+   }
+   
+  .hero img {
+   width: 100%;
+    height: auto;
+   }
+   
+  .hero-content {
+     position: absolute;
+    top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     color: white;
+   }
+
+    h1 {
+      font-size: 2rem;
+       margin-bottom: 1rem;
+     }
+  
+     p {
+    
+       font-size: 1.2rem;
+       margin-bottom: 1rem;
+     }
+     
+     #cta-btn {
+       background-color: #007bff;
+       color: white;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 5px;
+       cursor: pointer;
+     }
+    
+
+  .services {
+    margin: 2rem auto;
+    max-width: 1000px;
+  }
+  
+  .services h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .service-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .service-list li {
+    flex: 1 0 calc(30% - 1rem); 
+    margin: 0.3rem;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+  }
+
+
+  figure {
+    margin: 0;
+    padding: 0;
+  }
+  
+  figure img {
+    width: 100%; 
+    display: flex;
+  }
+  
+  figcaption {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: none;
+    padding: 10px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+  }
+  
+    
+  

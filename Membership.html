@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" >
+  <title>Though Guy</title>
+  <link href="Membership.css" rel="stylesheet" >
+  <link  href="Footer.css" rel="stylesheet" >
+  <script src="membership_calc.js" defer></script>
+</head>
+
+<body>
+    <header class="main-header">
+      <img src="C:\Users\vlad2\OneDrive\Desktop\final project\index\gym_Logo.webp" alt="Gym Logo">
+      <h1>Though Guy</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Membership.html">Membership</a></li>
+          <li><a href="Classes.html">Classes</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1>Membership Form</h1>
+    <form id="membershipForm">
+      <fieldset>
+          <legend>Plan Type</legend>
+          <div class="plan-options">
+              <input type="radio" id="individual" name="planType" value="individual">
+              <label for="individual">Individual ($30/month)</label>
+          </div>
+          <div class="plan-options">
+              <input type="radio" id="trainer" name="planType" value="trainer">
+              <label for="trainer">With Trainer ($50/month + Trainer Fee)</label>
+          </div>
+          <div class="plan-options">
+              <input type="radio" id="group" name="planType" value="group">
+              <label for="group">Group Class ($20/month)</label>
+          </div>
+      </fieldset>
+      <fieldset>
+          <legend>Membership Type</legend>
+          <div class="plan-options">
+              <input type="radio" id="basic" name="membershipType" value="basic">
+              <label for="basic">Basic (Gym Access Only) </label>
+          </div>
+          <p>Description: Access to all gym equipment and spa complex.</p>
+
+          <div class="plan-options">
+              <input type="radio" id="premium" name="membershipType" value="premium">
+              <label for="premium">Premium (Gym Access + Spa) $10/month</label>
+              
+          </div>
+          <p>Description: Access to all gym equipment and facilities.</p>
+      </fieldset>
+      <fieldset>
+          <legend>Membership Duration</legend>
+          <div class="plan-options">
+              <input type="radio" id="month" name="duration" value="1">
+              <label for="month">1 Month (No Discount)</label>
+          </div>
+          <div class="plan-options">
+              <input type="radio" id="months3" name="duration" value="3">
+              <label for="months3">3 Months (10% Discount)</label>
+          </div>
+          <div class="plan-options">
+              <input type="radio" id="months6" name="duration" value="6">
+              <label for="months6">6 Months (15% Discount)</label>
+          </div>
+          <div class="plan-options">
+              <input type="radio" id="year" name="duration" value="12">
+              <label for="year">1 Year (20% Discount)</label>
+          </div class="plan-options">
+      </fieldset>
+      <div id="totalPriceWindow">
+          <p>Total Price: $0.00 per month</p>
+      </div>
+      <button id="PayButton" type="button">Continue to payment</button>
+    </form>
+
+
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-col">
+            <ul class="social-list">
+              <li><a href="#"><img src="C:\Users\vlad2\OneDrive\Desktop\final project\index\footer_facebook.jpg" alt="Facebook"></a></li>
+              <li><a href="#"><img src="C:\Users\vlad2\OneDrive\Desktop\final project\index\footer_TikTok.jpg.crdownload" alt="Tik Tok"></a></li>
+              <li><a href="#"><img src="C:\Users\vlad2\OneDrive\Desktop\final project\index\footer_instagram.jpg" alt="Instagram"></a></li>
+              </ul>
+          </div>
+          <div class="footer-col">
+            <ul class="nav-list">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="Membership.html">Membership</a></li>
+              <li><a href="Classes.html">Classes</a></li>
+              <li><a href="#">Contact</a></li>
+              </ul>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <p>&copy;  Though Guy inc.</p>
+        </div>
+      </footer>
+
+</body>
